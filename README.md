@@ -1,6 +1,6 @@
 # ipaddress.js
 
-A tiny module to get your public IP address
+Get user public IP address, no server required.
 
 [>DEMO<](https://nuzulul.github.io/ipaddress.js/demo.html)
 

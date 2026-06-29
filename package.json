@@ -1,6 +1,6 @@
 {
   "name": "ipaddress.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "A tiny module to get your public IP address",
   "main": "ipaddress.js",
