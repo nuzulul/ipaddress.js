@@ -1,0 +1,8 @@
+title: ipaddressr.js
+description: A tiny module to get your public IP address
+google_analytics: 
+show_downloads: false
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions

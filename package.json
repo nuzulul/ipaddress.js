@@ -1,0 +1,31 @@
+{
+  "name": "ipaddress.js",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A tiny module to get your public IP address",
+  "main": "ipaddress.js",
+  "module": "ipaddress.js",
+  "exports": {
+    ".": {
+      "import": "ipaddress.js"
+    }
+  },      
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuzulul/ipaddress.js.git"
+  },
+  "keywords": [
+    "ip",
+    "ip-address",
+	"ip address"
+  ],
+  "author": "Nuzulul Zulkarnain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuzulul/ipaddress.js/issues"
+  },
+  "homepage": "https://github.com/nuzulul/ipaddress.js#readme"
+}
