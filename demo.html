@@ -3,45 +3,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>ipaddress.js</title>
 <style>
-body {
-	display:flex;
-	flex-direction: column;
-	align-items: center;
+body{
+display:flex;
+flex-direction:column;
+align-items:center;
 }
-#header {
-	padding: 20px 20px 5px 20px;
-	font-size: 20px;
+#top{
+padding:20px 20px;
+font-size:20px;
 }
-#ipaddress {
-margin : 20px 20px;
+#ip{
 padding:20px 20px;
 font-size:30px;
-border: 1px solid grey;
+border:1px solid grey;
 }
 </style>
-<script type="importmap">
-{
-	"imports": {
-		"ipaddress.js" : "./ipaddress.js"
-	}
-}
-</script>
+<script type="importmap">{"imports":{"ipaddress.js":"./ipaddress.js"}}</script>
 </head>
 <body>
-<div id="header">Demo <a href="https://github.com/nuzulul/ipaddress.js">ipaddress.js</a></div>
-<div id="tagline">A tiny module to get your public IP address</div>
-<div id="ipaddress"></div>
-<div id="status">Lookup ...</div>
+<div id="top">Demo ipaddress.js</div>
+<div id="ip"></div>
+<div id="bar">Lookup</div>
 <script type="module">
-	import { getIpAddress } from 'ipaddress.js';
-	
-	try {
-		const ipaddress = await getIpAddress();
-		document.getElementById('ipaddress').textContent = ipaddress
-		document.getElementById('status').textContent = 'Finish'
-	} catch (error) {
-		document.getElementById('status').textContent = error
-	}
+import {getIpAddress} from 'ipaddress.js'
+try {
+const ip=await getIpAddress()
+document.getElementById('ip').textContent=ip
+document.getElementById('bar').textContent='Finish'
+}catch(e){
+document.getElementById('bar').textContent=e
+}
 </script>
 </body>
 </html>
