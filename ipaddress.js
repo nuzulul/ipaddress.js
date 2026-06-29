@@ -1,3 +1,9 @@
+/**
+ * ipaddress.js - A tiny module to get your public IP address
+ * https://github.com/nuzulul/ipaddress.js
+ * License MIT - 2026 - Nuzulul Zulkarnain
+ */
+
 const getIpAddress = ()=> new Promise((resolve,reject)=>{
 	
 	setTimeout(()=>{
